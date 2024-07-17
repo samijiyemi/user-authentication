@@ -1,0 +1,20 @@
+{
+  "name": "user-auth",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node -r esm",
+    "dev": "nodemon -r esm ."
+  },
+  "keywords": [],
+  "author": "ogbenisamu",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "esm": "^3.2.25",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1"
+  }
+}
